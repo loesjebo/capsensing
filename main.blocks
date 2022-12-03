@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="S{;l3?RB#EC4]tQKTRAl" x="79" y="-271"><statement name="HANDLER"><block type="device_touch_set_type" id="8]vguot4!H+EkpMBoU,."><field name="name">TouchTarget.P0</field><field name="mode">TouchTargetMode.Capacitive</field><next><block type="device_touch_set_type" id="4B}`;4.VS9nX@qpA/~hL"><field name="name">TouchTarget.P1</field><field name="mode">TouchTargetMode.Capacitive</field><next><block type="device_touch_set_type" id="]3iPo#*sUlqtIo{@U5q:"><field name="name">TouchTarget.P2</field><field name="mode">TouchTargetMode.Capacitive</field></block></next></block></next></block></statement></block><block type="device_forever" id="LMZ@2Jf?DA+CSJ.wQxiN" x="82" y="102"><statement name="HANDLER"><block type="controls_if" id=".2~nUdanY)E,94-P.RxI"><mutation elseif="4" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="t/1Y/%LWilju3kh1tt4C"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id=")]8TbEAO}N1e.8**A.Ix"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF1"><block type="logic_operation" id="LYzzI/!FVg*,:7~s}/B9"><field name="OP">AND</field><value name="A"><block type="device_pin_is_pressed" id="/Z4p1Q//cE`qHM~6EZaV"><field name="NAME">TouchPin.P0</field></block></value><value name="B"><block type="device_pin_is_pressed" id="*c@EOVH/0)Qz-goNe#K!"><field name="NAME">TouchPin.P1</field></block></value></block></value><statement name="DO1"><block type="device_show_leds" id="BzE`Us)fM)o$/s`Tx@g8"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF2"><block type="device_pin_is_pressed" id="$#iZ=ScNvY{ZD!M^Wylc"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO2"><block type="device_show_leds" id="WJ`I*e:[/6g.kw%DQZQz"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF3"><block type="logic_operation" id="[l}w[{[E{(7}:opxv6SG"><field name="OP">AND</field><value name="A"><block type="device_pin_is_pressed" id="Xs_ivor{)A@LMG#CHyKm"><field name="NAME">TouchPin.P1</field></block></value><value name="B"><block type="device_pin_is_pressed" id="3WANi@Mo0rXS*m:y5(0!"><field name="NAME">TouchPin.P2</field></block></value></block></value><statement name="DO3"><block type="device_show_leds" id="Y}e0?%.|iy7L;/xRg_EO"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><value name="IF4"><block type="device_pin_is_pressed" id="rm]Nz|5QJ}/(LqO![I7J"><field name="NAME">TouchPin.P2</field></block></value><statement name="DO4"><block type="device_show_leds" id="r][3+Es*b#!TBB*97`D!"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="MILY?@4sji1pE@qg2##}"></block></statement></block></statement></block></xml>
